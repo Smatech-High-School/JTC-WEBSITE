@@ -8,7 +8,7 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
       <div className={`md:bg-pale-yellow ${isOpen ? "bg-moderate-blue" : "bg-pale-yellow"}`}>
-        <nav className="py-10">
+        <nav className="py-4 md:py-8">
           <div className="max-w-7xl mb-5 px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
@@ -127,7 +127,7 @@ const NavBar = () => {
               </div>
             )}
           </Transition>
-          <div className="bg-soft-blue text-white py-2">You can excell academically</div>
+          <div className="bg-soft-blue text-white text-xs md:text-sm py-2">Join us, to become an A student</div>
         </nav>
   
       </div>
