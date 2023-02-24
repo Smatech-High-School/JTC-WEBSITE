@@ -7,9 +7,9 @@ import jtc from "../../images/jtc.svg";
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className={`md:bg-pale-yellow ${isOpen ? "bg-moderate-blue" : "bg-pale-yellow"}`}>
-        <nav className="py-4 md:py-8">
-          <div className="max-w-7xl mb-5 px-4 sm:px-6 lg:px-8">
+      <div className={`fixed z-50 w-[100vw] md:bg-pale-red ${isOpen ? "bg-moderate-blue" : "bg-pale-red"}`}>
+        <nav className="">
+          <div className="max-w-7xl px-4 sm:px-6 lg:px-8 py-1 md:py-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
