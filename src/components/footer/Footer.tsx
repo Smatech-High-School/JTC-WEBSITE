@@ -9,8 +9,8 @@ const Footer = () => {
     return (
         <div className="bg-[#000000] text-left">
             <div className="ml-6 md:grid md:grid-cols-4 pt-20">
-                <div className="mb-10">
-                    <h6 className="text-white mb-8">Powered by</h6>
+                <div className="pb-10">
+                    <h6 className="text-white mb-8 text-[14px]">Powered by</h6>
                     <img 
                         src={jtc}
                         alt="JTC's logo"
@@ -39,35 +39,45 @@ const Footer = () => {
                         />
                     </div>
                     
-                    <p className="text-white mb-2">Tel: +234 815 675 1887</p>
-                    <p className="text-white mb-2">Tel: +234 908 445 6153</p>
-                </div>
-            
+                    <div className="text-white mb-2 text-[14px]">
+                        <p>Tel: +234 815 675 1887</p>
+                        <p>Tel: +234 908 445 6153</p>
+                    </div>
 
-                <div className="mb-10">
-                    <h6 className="text-white mb-8">Classes</h6>
-                    <p className="text-white mb-2">J.s.s. 1 and 2</p>
-                    <p className="text-white mb-2">J.s.s. 3</p>
-                    <p className="text-white mb-2">S.s. 1</p>
-                    <p className="text-white mb-2">Preparatory Class</p>
-                    <p className="text-white mb-2">Jamb Class</p>
+                    <p className="text-white mt-10 text-[16px]">2023 JTC. All rights reserved.</p>
                 </div>
 
-                <div className="mb-10">
-                    <h6 className="text-white mb-8">Classes</h6>
-                    <p className="text-white mb-2">J.s.s. 1 and 2</p>
-                    <p className="text-white mb-2">J.s.s. 3</p>
-                    <p className="text-white mb-2">S.s. 1</p>
-                    <p className="text-white mb-2">Preparatory Class</p>
-                    <p className="text-white mb-2">Jamb Class</p>
+
+                <div className="pb-10">
+                    <h6 className="text-white mb-8 text-[16px]">Classes</h6>
+                    <div className="text-white mb-2 text-[14px]">
+                        <p>J.s.s. 1 and 2</p>
+                        <p>J.s.s. 3</p>
+                        <p>S.s. 1</p>
+                        <p>Preparatory Class</p>
+                        <p>Jamb Class</p>
+                    </div>
                 </div>
 
-                <div className="mb-10">
-                    <h6 className="text-white mb-8">Records</h6>
-                    <p className="text-white mb-2">O'level exams records</p>
-                    <p className="text-white mb-2">Jamb records</p>
-                    <p className="text-white mb-2">International exams records</p>
-                    <p className="text-white mb-2">Competion records</p>
+                <div className="pb-10">
+                    <h6 className="text-white mb-8 text-[16px]">Classes</h6>
+                    <div className="text-white mb-2 text-[14px]">
+                        <p>J.s.s. 1 and 2</p>
+                        <p>J.s.s. 3</p>
+                        <p>S.s. 1</p>
+                        <p>Preparatory Class</p>
+                        <p>Jamb Class</p>
+                    </div>
+                </div>
+
+                <div className="pb-10">
+                    <h6 className="text-white mb-8 text-[16px]">Records</h6>
+                    <div className="text-white mb-2 text-[14px]">
+                        <p>O'level exams records</p>
+                        <p>Jamb records</p>
+                        <p>International exams records</p>
+                        <p>Competion records</p>
+                    </div>
                 </div>
             </div>
         </div>
